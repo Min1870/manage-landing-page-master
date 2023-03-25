@@ -1,7 +1,6 @@
 import { testimonials } from "../data";
 import GetStarted from "./GetStarted";
 
-
 const TestimonialsCard = ({ id, image, name, content }) => (
   <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-veryLightGray md:w-1/3">
     <img src={image} alt="" className="w-16 -mt-14" />
@@ -22,7 +21,7 @@ const Testimonials = () => {
           ))}
         </div>
         <div className="my-16">
-          <GetStarted styles="text-white"/>
+          <GetStarted styles="text-white" />
         </div>
       </div>
     </section>
